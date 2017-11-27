@@ -62,12 +62,15 @@ public class Eleve
     {
         boolean trouve = false;
         // A vous de jouer
-//        for(Test t:sesTests){
-//            
-//            if(unTest.getIdTest()){
-//                
-//            }
-//        }
+         for(Test t  : sesTests )
+        {
+            if(t.getIdTest()== unTest.getIdTest())
+            {
+                trouve = true;
+                break;
+            }
+        }
+
         
         return trouve;
     }
